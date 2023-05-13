@@ -1,0 +1,3 @@
+C:\Users\alvin\Desktop\VS2019项目文件夹\Driver\HypervisorOops\x64\Debug\HypervisorOops.sys
+C:\Users\alvin\Desktop\VS2019项目文件夹\Driver\HypervisorOops - 副本\x64\Debug\HypervisorOops.sys
+C:\Users\alvin\Desktop\VS2019项目文件夹\Driver\HypervisorOops_Demo2_+IRQL\x64\Debug\HypervisorOops.sys
