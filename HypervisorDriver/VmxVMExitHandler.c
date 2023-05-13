@@ -319,7 +319,7 @@ BOOLEAN VehAdjustGuestRip()
 	if ((g_pGuestState->ExitRip != 0) && (g_pGuestState->ExitInstructionLength != 0))
 	{
 		g_pGuestState->ExitRip += g_pGuestState->ExitInstructionLength;
-		__vmx_vmwrite(GUEST_RIP, g_pGuestState->bLowerIRQL);
+		__vmx_vmwrite(GUEST_RIP, g_pGuestState->ExitRip);
 
 		return TRUE;
 	}
